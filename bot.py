@@ -97,5 +97,5 @@ if __name__ == '__main__':
             print(f"FloodWait! Sleeping for {e.value} seconds.")
             time.sleep(e.value) 
         except KeyboardInterrupt:
-            logging.info('Service Stopped Bye 👋')
+            logging.info('Service Stopped Bye 😐')
             break
