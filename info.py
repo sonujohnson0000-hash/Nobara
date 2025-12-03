@@ -32,7 +32,7 @@ INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when i
 
 
 PICS = (environ.get('PICS', 'https://files.catbox.moe/s73ob5.webm')).split()  # Sample pic
-NOR_IMG = environ.get("NOR_IMG", "https://files.catbox.moe/nfgkr2.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://files.catbox.moe/nfgkr2.jpg https://files.catbox.moe/nfgkr2.jpg")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://files.catbox.moe/ocxf1v.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://files.catbox.moe/i511ym.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52743938d81f1.jpg'))
